@@ -1,0 +1,45 @@
+.container{
+    display:grid;
+    margin-top: 40px;
+    margin-left: 40px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas: "nav nav nav"
+                         "content-1 content-2 content-3"
+                         "content-4 content-5 content-6"
+                         "footer footer footer";
+    grid-gap: 20px;
+}
+nav{
+    background-color: black;
+    grid-area: nav;
+}
+.content-1{
+    background-color: black;
+    grid-area: content-1;
+}
+
+.content-2{
+    background-color: black;
+    grid-area: content-2;
+}
+.content-3{
+    background-color: black;
+    grid-area: content-3;
+}
+.content-4{
+    background-color: black;
+    grid-area: content-4;
+}
+.content-5{
+    background-color: black;
+    grid-area: content-5;
+}
+.content-6{
+    background-color: black;
+    grid-area: content-6;
+}
+footer{
+    background-color: black;
+    grid-area: footer; 
+}

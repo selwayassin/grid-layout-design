@@ -1,0 +1,21 @@
+.container{
+    display:grid;
+    margin-top: 40px;
+    margin-left: 40px;
+    grid-template-columns: 100px 200px 100px;
+    grid-template-rows: 450px;
+    grid-template-areas: "side-1 main side-2";
+    grid-gap: 20px;
+}
+.side-1{
+    background-color: black;
+    grid-area: side-1;
+}
+main{
+    background-color: black;
+    grid-area: main; 
+}
+.side-2{
+    background-color: black;
+    grid-area: side-2;
+}

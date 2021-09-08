@@ -1,0 +1,44 @@
+.container{
+    display:grid;
+    margin-top: 40px;
+    margin-left: 40px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: "nav-left nav-left nav-right"
+                         "content-1 content-2 content-3"
+                         "content-4 content-5 content-6";
+    grid-gap: 20px;
+}
+.nav-left{
+    background-color: black;
+    grid-area: nav-left; 
+}
+.nav-right{
+    background-color: black;
+    grid-area: nav-right; 
+}
+.content-1{
+    background-color: black;
+    grid-area: content-1;
+}
+
+.content-2{
+    background-color: black;
+    grid-area: content-2;
+}
+.content-3{
+    background-color: black;
+    grid-area: content-3;
+}
+.content-4{
+    background-color: black;
+    grid-area: content-4;
+}
+.content-5{
+    background-color: black;
+    grid-area: content-5;
+}
+.content-6{
+    background-color: black;
+    grid-area: content-6;
+}

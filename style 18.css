@@ -1,0 +1,17 @@
+.container{
+    display:grid;
+    margin-top: 40px;
+    margin-left: 40px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 450px;
+    grid-template-areas: "content-1 content-2";
+    grid-gap: 20px;
+}
+.content-1{
+    background-color: black;
+    grid-area: content-1;
+}
+.content-2{
+    background-color: black;
+    grid-area: content-2;
+}

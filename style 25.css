@@ -1,0 +1,28 @@
+.container{
+    display:grid;
+    margin-top: 40px;
+    margin-left: 40px;
+    grid-template-columns: 305px 305px;
+    grid-template-rows: 100px 200px 100px;
+    grid-template-areas: "nav nav"
+                         "content-1 content-2"
+                         "footer footer";
+    grid-gap: 20px;
+}
+nav{
+    background-color: black;
+    grid-area: nav; 
+}
+.content-1{
+    background-color: black;
+    grid-area: content-1;
+}
+
+.content-2{
+    background-color: black;
+    grid-area: content-2;
+}
+footer{
+    background-color: black;
+    grid-area: footer;
+}

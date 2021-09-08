@@ -1,0 +1,27 @@
+.container{
+    display:grid;
+    margin-top: 40px;
+    margin-left: 40px;
+    grid-template-columns: 125px 200px 125px;
+    grid-template-rows: 100px 400px;
+    grid-template-areas: "nav nav nav"
+                         "col-1 col-2 col-3";
+    grid-gap: 20px;
+}
+nav{
+    background-color: black;
+    grid-area: nav; 
+}
+.col-1{
+    background-color: black;
+    grid-area: col-1;
+}
+
+.col-2{
+    background-color: black;
+    grid-area: col-2;
+}
+.col-3{
+    background-color: black;
+    grid-area: col-3;
+}

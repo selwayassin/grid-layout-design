@@ -1,0 +1,22 @@
+.container{
+    display:grid;
+    margin-top: 40px;
+    margin-left: 40px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 400px;
+    grid-template-areas:"col-1 col-2 col-3";
+    grid-gap: 20px;
+}
+.col-1{
+    background-color: black;
+    grid-area: col-1;
+}
+
+.col-2{
+    background-color: black;
+    grid-area: col-2;
+}
+.col-3{
+    background-color: black;
+    grid-area: col-3;
+}

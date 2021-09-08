@@ -1,0 +1,22 @@
+.container{
+    display:grid;
+    margin-top: 40px;
+    margin-left: 40px;
+    grid-template-rows: 100px 420px;
+    grid-template-columns: 100px 420px;
+    grid-template-areas: "nav nav "
+                          "content main-content";
+    grid-gap: 20px;
+}
+nav{
+    background-color: black;
+    grid-area: nav;
+}
+.content{
+    background-color: black;
+    grid-area: content;
+}
+.main-content{
+    background-color: black;
+    grid-area: main-content;
+}
